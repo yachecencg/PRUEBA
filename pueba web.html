@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a mi sitio web!</h1>
+        <p>Este es un ejemplo básico de HTML.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#conceptos">Conceptos Clave</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduccion">
+            <h2>Introducción a HTML</h2>
+            <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web.</p>
+            <p>Es un lenguaje de marcado, lo que significa que utiliza <strong>etiquetas</strong> para definir la estructura y el contenido de una página.</p>
+            <img src="https://via.placeholder.com/300x200" alt="Imagen de ejemplo de HTML">
+        </section>
+        <section id="conceptos">
+            <h2>Conceptos Clave</h2>
+            <h3>Etiquetas y Atributos</h3>
+            <p>Las etiquetas se encierran entre corchetes angulares, por ejemplo: <code>&lt;p&gt;</code> para un párrafo.</p>
+            <p>Muchos elementos tienen <strong>atributos</strong> que proporcionan información adicional. Por ejemplo, en un enlace:</p>
+            <p><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Visita MDN Web Docs sobre HTML</a></p>
+            <small>(El atributo <code>target="_blank"</code> abre el enlace en una nueva pestaña)</small>
+
+            <h3>Estructura del Documento</h3>
+            <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code>: Declara el tipo de documento.</li>
+                <li><code>&lt;html&gt;</code>: La raíz de todo el documento HTML.</li>
+                <li><code>&lt;head&gt;</code>: Contiene metadatos (información sobre la página, no visible directamente).</li>
+                <li><code>&lt;body&gt;</code>: Contiene todo el contenido visible de la página.</li>
+            </ul>
+            <h3>Elementos Semánticos</h3>
+            <p>Ayudan a organizar el contenido de manera significativa:</p>
+            <ul>
+                <li><code>&lt;header&gt;</code>: Contenido introductorio o un grupo de enlaces de navegación.</li>
+                <li><code>&lt;nav&gt;</code>: Sección de enlaces de navegación.</li>
+                <li><code>&lt;main&gt;</code>: Contenido principal único del documento.</li>
+                <li><code>&lt;section&gt;</code>: Agrupa contenido relacionado.</li>
+                <li><code>&lt;article&gt;</code>: Contenido independiente y auto-contenido.</li>
+                <li><code>&lt;footer&gt;</code>: Pie de página de un documento o sección.</li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contacto">
+        <p>&copy; 2025 Mi Primera Página Web. Todos los derechos reservados.</p>
+        <p>Email: <a href="mailto:ejemplo@email.com">ejemplo@email.com</a></p>
+    </footer>
+</body>
+</html>
+
+
